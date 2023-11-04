@@ -1,11 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+/* @import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&display=swap"); */
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  /* --font-family-verela: "Verela Round", sans-serif;
+  --font-family-agbalumo: "Agbalumo", sans-serif; */
 }
 
 @media (prefers-color-scheme: white) {

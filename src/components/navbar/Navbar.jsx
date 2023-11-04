@@ -7,14 +7,15 @@ import {
   Link,
   Button,
 } from "@nextui-org/react";
-// import {AcmeLogo} from "./AcmeLogo.jsx";
+import Logo from "@/assets/LOGO.png";
+import Image from "next/image";
 
 export default function App() {
   return (
     <Navbar maxWidth="full">
       <NavbarBrand>
-        {/* <AcmeLogo /> */}
-        <p className="font-bold text-inherit">GameOn</p>
+        <Image src={Logo} className="w-36" />
+        {/* <p className="font-bold text-inherit">GameOn</p> */}
       </NavbarBrand>
       {/* <NavbarContent
         className="hidden sm:flex gap-4"
@@ -27,8 +28,13 @@ export default function App() {
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#Events">
-            Leaderboard
+          <Link color="foreground" href="#AboutUs">
+            About Us
+          </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link color="foreground" href="#Gallery">
+            Gallery
           </Link>
         </NavbarItem>
         {/* <NavbarItem isActive>
