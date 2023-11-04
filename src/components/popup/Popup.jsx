@@ -27,13 +27,15 @@ export default function Popup() {
               <ModalHeader className="flex flex-col gap-1">
                 Box Cricket
               </ModalHeader>
-              <ModalBody className="flex flex-row">
+              <ModalBody className="sm:flex sm:flex-row">
                 <div>
                   <Image src={Poster} width={750} />
                 </div>
                 <div>
-                  <p className="font-bold text-sm">Tournament Details:</p>
-                  <ScrollShadow className="w-full h-fit text-xs">
+                  <p className="font-bold hidden sm:block text-sm">
+                    Tournament Details:
+                  </p>
+                  <ScrollShadow className="w-11/12 sm:w-full hidden sm:block h-40 sm:h-fit text-xs sm:text-xs">
                     <ul className="list-disc list-inside">
                       <li>
                         Entry Fees: Register your team for a nominal entry fee
@@ -71,8 +73,10 @@ export default function Popup() {
                       </li>
                     </ul>
                   </ScrollShadow>
-                  <p className="font-bold text-sm">Tournament Details:</p>
-                  <ScrollShadow className="w-full h-fit text-xs">
+                  <p className="font-bold hidden sm:block text-sm">
+                    Tournament Details:
+                  </p>
+                  <ScrollShadow className="w-11/12 sm:w-full hidden sm:block h-40 sm:h-fit text-xs sm:text-xs">
                     <ul className="list-disc list-inside">
                       <li>
                         Team Composition: Each team can consist of a maximum of
@@ -122,6 +126,7 @@ export default function Popup() {
                 <Button color="danger" variant="light" onPress={onClose}>
                   Close
                 </Button>
+               
                 <Button
                   isExternal={true}
                   as={Link}
@@ -131,6 +136,7 @@ export default function Popup() {
                 >
                   Register
                 </Button>
+               
               </ModalFooter>
             </>
           )}

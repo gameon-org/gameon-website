@@ -37,6 +37,11 @@ export default function App() {
             Gallery
           </Link>
         </NavbarItem>
+        <NavbarItem className="hidden sm:block">
+          <Link color="foreground" href="#Footer">
+            Contact Us
+          </Link>
+        </NavbarItem>
         {/* <NavbarItem isActive>
           <Link href="#" aria-current="page">
             Leaderboard

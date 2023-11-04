@@ -14,3 +14,4 @@ export { default as Football } from "./football.png";
 export { default as Hockey } from "./hockey.png";
 export { default as Skates } from "./Skates.png";
 export { default as Poster } from "./Poster.png";
+export { default as Icon } from "./Icon.png";

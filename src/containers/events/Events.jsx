@@ -13,9 +13,11 @@ import { Popup } from "@/components";
 const Events = () => {
   return (
     <div id="Events" className="sm:p-36">
-      <h2 className="text-3xl sm:text-5xl font-bold p-6 sm:pb-14 sm:pl-20">Events</h2>
+      <h2 className="text-3xl sm:text-5xl font-bold p-6 sm:pb-14 sm:pl-20">
+        Events
+      </h2>
       <div className="flex flex-col-reverse sm:flex-row sm:justify-center gap-10">
-        <Card className="ml-10 mr-10 sm:py-4 ">
+        <Card className="ml-10 mr-10 sm:m-0 sm:py-4 ">
           <Image
             alt="Card background"
             className="object-cover rounded-xl"
@@ -44,10 +46,10 @@ const Events = () => {
             </a>
           </CardBody>
         </Card>{" "}
-        <Card className="ml-10 mr-10 sm:py-4">
+        <Card className="ml-10 mr-10 sm:m-0 sm:py-4">
           <Image
             alt="Card background"
-            className="object-cover rounded-xl"
+            className="object-cover rounded-xl p-3"
             src={Hockey}
             width={270}
           />
@@ -64,10 +66,10 @@ const Events = () => {
             <small className="text-default-500">Sports:- N/A</small>
           </CardBody>
         </Card>{" "}
-        <Card className="ml-10 mr-10 sm:py-4">
+        <Card className="ml-10 mr-10 sm:m-0 sm:py-4">
           <Image
             alt="Card background"
-            className="object-cover rounded-xl"
+            className="object-cover rounded-xl p-3"
             src={Football}
             width={270}
           />
@@ -80,11 +82,11 @@ const Events = () => {
             <p className="text-tiny uppercase font-bold">
               Sports:- Box Cricket
             </p>
-            <small className="text-default-500">Date - 21/11/2023</small>
+            <small className="text-default-500">Date - 17/11/2023</small>
             <small className="text-default-500">
               Location - Verka Milk Plant Road , Jalandhar
             </small>
-            <small className="text-default-500">Date - 21/11/2023</small>
+
             <a className="flex items-center justify-center align-bottom pt-5">
               <small className=" text-blue-600">
                 <Popup />

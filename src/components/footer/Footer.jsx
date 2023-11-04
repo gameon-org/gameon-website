@@ -12,7 +12,10 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="w-full flex justify-center align-middle mt-20 mb-20 drop-shadow-xl">
+    <footer
+      id="Footer"
+      className="w-full flex justify-center align-middle mt-20 mb-20 drop-shadow-xl"
+    >
       <Card className=" w-4/5 bg-gray-300">
         <CardHeader className="flex gap-3">
           <Image
@@ -60,9 +63,9 @@ const Footer = () => {
           </div>
           <div>
             {"\n Mail to:"}
-            <Link isExternal href="mailto:kingabhishek1024@gmail.com">
+            <Link isExternal href="mailto:ask.gameon@gmail.com">
               {" "}
-              kingabhishek1024@gmail.com
+              ask.gameon@gmail.com
             </Link>
           </div>
         </CardFooter>

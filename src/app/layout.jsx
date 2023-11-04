@@ -1,6 +1,7 @@
 import { Inter, Varela_Round, Agbalumo } from "next/font/google";
 import "./globals.css";
 import { Providers } from "./providers";
+import { Icon } from "@/assets";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,6 +25,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <link rel="icon" href="./icon.ico" type="image/icon type" />
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
