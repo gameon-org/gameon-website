@@ -1,10 +1,11 @@
+import { AboutusImg } from "@/assets";
 import Image from "next/image";
 import React from "react";
 
 const AboutUs = () => {
   return (
-    <div id="AboutUs" className="h-screen p-1 drop-shadow-2xl  ">
-      <div className="flex m-40 p-5 w-1/2 bg-orange-500 text-white">
+    <div id="AboutUs" className="h-screen w-full p-1 drop-shadow-2xl  ">
+      <div className="flex m-40 p-5 bg-orange-500 text-white">
         <div>
           <p className="font-Crete text-5xl pb-5">What we Offer!</p>
           <div className="font-Varela text-3xl pb-10">
@@ -22,7 +23,9 @@ const AboutUs = () => {
             </p>
           </div>
         </div>
-        <div className="w-1/2">{/* <Image></Image> */}</div>
+        <div className="">
+          <Image src={AboutusImg} width={1000}></Image>
+        </div>
       </div>
     </div>
   );

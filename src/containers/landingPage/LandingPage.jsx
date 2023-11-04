@@ -1,6 +1,8 @@
 import Image from "next/image";
 import React from "react";
 import { varela, agbalumo } from "@/app/layout";
+import { BatsmanHome } from "@/assets";
+
 const LandingPage = () => {
   return (
     <div className="flex h-screen">
@@ -12,7 +14,9 @@ const LandingPage = () => {
           GameOn
         </span>
       </div>
-      <div className="h-60 w-1/2 bg-green-300">erte{/* <Image></Image> */}</div>
+      <div className="h-60 w-1/2">
+        <Image src={BatsmanHome} />
+      </div>
     </div>
   );
 };

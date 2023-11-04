@@ -22,17 +22,17 @@ export default function App() {
         justify="center"
       ></NavbarContent> */}
       <NavbarContent justify="end">
-        <NavbarItem>
+        <NavbarItem className="hidden sm:block">
           <Link color="foreground" href="#Events">
             Events
           </Link>
         </NavbarItem>
-        <NavbarItem>
+        <NavbarItem className="hidden sm:block">
           <Link color="foreground" href="#AboutUs">
             About Us
           </Link>
         </NavbarItem>
-        <NavbarItem>
+        <NavbarItem className="hidden sm:block">
           <Link color="foreground" href="#Gallery">
             Gallery
           </Link>
@@ -42,16 +42,22 @@ export default function App() {
             Leaderboard
           </Link>
         </NavbarItem> */}
-        <NavbarItem>
+        {/* <NavbarItem>
           <Link color="foreground" href="#">
             Blog
           </Link>
-        </NavbarItem>
+        </NavbarItem> */}
         {/* <NavbarItem className="hidden lg:flex">
           <Link href="#">Login</Link>
         </NavbarItem> */}
         <NavbarItem>
-          <Button as={Link} color="primary" href="#" variant="flat">
+          <Button
+            isExternal={true}
+            as={Link}
+            color="primary"
+            href="https://forms.gle/u2bXXCB3sR17aE357"
+            variant="flat"
+          >
             Register for New Event
           </Button>
         </NavbarItem>

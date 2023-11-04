@@ -1,7 +1,6 @@
 import { Button } from "@nextui-org/react";
-import { Footer, Navbar } from "@/components";
-import { AboutUs, Events, Gallery, LandingPage } from "@/containers";
-import PhoneApp from "@/containers/phoneApp/PhoneApp";
+import { Footer, Navbar, Popup } from "@/components";
+import { AboutUs, Events, Gallery, LandingPage, PhoneApp } from "@/containers";
 
 export default function App() {
   return (
@@ -12,6 +11,7 @@ export default function App() {
       <Events />
       <Gallery />
       <PhoneApp />
+      
       <Footer />
     </main>
   );
