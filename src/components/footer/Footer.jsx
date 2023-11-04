@@ -29,14 +29,14 @@ const Footer = () => {
         </CardHeader>
         <Divider />
         <CardBody>
-          <div className="grid grid-cols-2 h-36 ">
-            <div className="text-5xl font-Varela font-extrabold text-orange-500">
+          <div className="sm:grid sm:grid-cols-2 h-36 ">
+            <div className="text-xl sm:text-5xl font-Varela font-extrabold text-orange-500">
               Unlock The Potential within You !!
             </div>
-            <div className="grid grid-cols-2 ">
+            <div className="sm:grid sm:grid-cols-2 ">
               <div></div>
               <div>
-                <ul className="text-lg flex flex-col gap-4">
+                <ul className="text-lg flex flex-col sm:gap-4">
                   <Link href="#AboutUs">
                     <li>About Us</li>
                   </Link>

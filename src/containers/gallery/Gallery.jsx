@@ -17,11 +17,13 @@ const LOGOS = [
 
 const Gallery = () => {
   return (
-    <div id="Gallery" className=" h-screen w-full pt-40">
-      <h2 className="text-5xl font-bold mb-20 pl-60">Gallery</h2>
+    <div id="Gallery" className="pt-5 sm:h-screen w-full sm:pt-40">
+      <h2 className="text-3xl p-5 sm:text-5xl font-bold sm:mb-20 sm:pl-60">
+        Gallery
+      </h2>
 
       <div className="h-80">
-        <div className="relative m-auto w-10/12 overflow-hidden  before:absolute before:left-0 before:top-0 before:z-[2] before:h-full before:w-[100px] before:bg-[linear-gradient(to_right,white_0%,rgba(255,255,255,0)_100%)] before:content-[''] after:absolute after:right-0 after:top-0 after:z-[2] after:h-full after:w-[100px] after:-scale-x-100 after:bg-[linear-gradient(to_right,white_0%,rgba(255,255,255,0)_100%)] after:content-['']">
+        <div className="relative m-auto w-10/12 overflow-hidden  before:absolute before:left-0 before:top-0 before:z-[2] before:h-full before:w-[100px] sm:before:bg-[linear-gradient(to_right,white_0%,rgba(255,255,255,0)_100%)] before:content-[''] after:absolute after:right-0 after:top-0 after:z-[2] after:h-full after:w-[100px] after:-scale-x-100 sm:after:bg-[linear-gradient(to_right,white_0%,rgba(255,255,255,0)_100%)] after:content-['']">
           <div className="animate-infinite-slider flex w-[calc(500px*10)] ">
             {/* <div className="slide flex w-[125px] items-center justify-center">
               <Image src={Img1} height={300} alt="Facebook" />

@@ -12,10 +12,10 @@ import { Popup } from "@/components";
 
 const Events = () => {
   return (
-    <div id="Events" className="p-36">
-      <h2 className="text-5xl font-bold pb-14 pl-20">Events</h2>
-      <div className="flex justify-center gap-10">
-        <Card className="py-4 ">
+    <div id="Events" className="sm:p-36">
+      <h2 className="text-3xl sm:text-5xl font-bold p-6 sm:pb-14 sm:pl-20">Events</h2>
+      <div className="flex flex-col-reverse sm:flex-row sm:justify-center gap-10">
+        <Card className="ml-10 mr-10 sm:py-4 ">
           <Image
             alt="Card background"
             className="object-cover rounded-xl"
@@ -44,7 +44,7 @@ const Events = () => {
             </a>
           </CardBody>
         </Card>{" "}
-        <Card className="py-4">
+        <Card className="ml-10 mr-10 sm:py-4">
           <Image
             alt="Card background"
             className="object-cover rounded-xl"
@@ -64,7 +64,7 @@ const Events = () => {
             <small className="text-default-500">Sports:- N/A</small>
           </CardBody>
         </Card>{" "}
-        <Card className="py-4">
+        <Card className="ml-10 mr-10 sm:py-4">
           <Image
             alt="Card background"
             className="object-cover rounded-xl"
